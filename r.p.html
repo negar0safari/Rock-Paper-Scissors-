@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="r.p.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Rock Paper Scissors</h1>
+            <p class="game-instruction">Select your move to begin</p>
+        </header>
+
+        <div class="selection-area">
+            <!-- User Selection Section -->
+            <div class="selection-container user-selection">
+                <h2>Your Choice</h2>
+                <div class="selection-display" id="user-choice-display">
+                    <img src="s.jpg" alt="Your choice" class="selection-image">
+                    <p class="selection-text">Waiting...</p>
+                </div>
+                <div class="selection-options">
+                    <button class="selection-btn" data-choice="rock">
+                        <img src="s.jpg" alt="Rock" class="option-image">
+                        <span>Rock</span>
+                    </button>
+                    <button class="selection-btn" data-choice="paper">
+                        <img src="k.jpg" alt="Paper" class="option-image">
+                        <span>Paper</span>
+                    </button>
+                    <button class="selection-btn" data-choice="scissors">
+                        <img src="q.webp" alt="Scissors" class="option-image">
+                        <span>Scissors</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- VS Divider -->
+            <div class="vs-divider">
+                <span>VS</span>
+            </div>
+
+            <!-- Computer Selection Section -->
+            <div class="selection-container computer-selection">
+                <h2>Computer's Choice</h2>
+                <div class="selection-display" id="computer-choice-display">
+                    <img src="k.jpg" alt="Computer's choice" class="selection-image">
+                    <p class="selection-text">Waiting...</p>
+                </div>
+                <div class="selection-placeholder">
+                    <p>Computer will choose after you</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="results-area">
+            <div class="score-display">
+                <div class="score-box user-score">
+                    <h3>Your Score</h3>
+                    <p id="user-score">0</p>
+                </div>
+                <div class="result-announcement">
+                    <p id="round-result">Make your move!</p>
+                </div>
+                <div class="score-box computer-score">
+                    <h3>Computer's Score</h3>
+                    <p id="computer-score">0</p>
+                </div>
+            </div>
+            <button id="reset-btn" class="reset-button">Reset Game</button>
+        </div>
+    </div>
+
+   
+</body>
+</html>
