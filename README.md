@@ -1,1 +1,2 @@
-# Rock-Paper-Scissors-
+# Coffee-project
+Introducing different types of coffee
