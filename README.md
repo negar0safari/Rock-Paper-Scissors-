@@ -12,7 +12,7 @@ Instant result feedback
 
 Responsive design
 ## 📸 Screenshots
+<img width="1324" height="617" alt="Screenshot_4" src="https://github.com/user-attachments/assets/eb5c7ed6-c7da-414a-8c10-f69ec268ebba" />
 
-![Home Page]<img width="1324" height="617" alt="Screenshot_4" src="https://github.com/user-attachments/assets/04f91d93-9e13-4138-b665-43b1120519fd" />
+<img width="1319" height="591" alt="Screenshot_1" src="https://github.com/user-attachments/assets/0874b6e8-507e-41df-83b6-9d971a3655fb" />
 
-![Menu Page]<img width="1319" height="591" alt="Screenshot_1" src="https://github.com/user-attachments/assets/ab47d9b6-53af-473f-8312-4720096fa7c4" />
